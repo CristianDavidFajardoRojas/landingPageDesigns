@@ -5,51 +5,68 @@
     box-sizing: border-box;
 }
 .container1{
-    position: absolute;
     display: grid;
     grid-column: auto auto auto auto;
-    padding: 5%;
-    margin: 5%;
+    padding-left: 14%;
+    padding-right: 14%;
     gap: 3%;
 }
 .img1{
+    justify-self: center;
+    align-self: center;
     grid-column: 1/1;
-    grid-row: 3/3;
+    grid-row: 1/1;
 }
 .img2{
+    justify-self: center;
+    align-self: center;
     grid-column: 2/2;
-    grid-row: 3/3;
+    grid-row: 1/1;
 }
 .img3{
+    justify-self: center;
+    align-self: center;
     grid-column: 3/3;
-    grid-row: 3/3;
+    grid-row: 1/1;
 }
 .img4{
+    justify-self: center;
+    align-self: center;
     grid-column: 4/4;
-    grid-row: 3/3;
+    grid-row: 1/1;
 }
 .img5{
+    justify-self: center;
+    align-self: center;
     grid-column: 1/1;
-    grid-row: 4/4;
+    grid-row: 2/2;
 }
 .img6{
+    justify-self: center;
+    align-self: center;
     grid-column: 2/2;
-    grid-row: 4/4;
+    grid-row: 2/2;
 }
 .img7{
+    justify-self: center;
+    align-self: center;
     grid-column: 3/3;
-    grid-row: 4/4;
+    grid-row: 2/2;
 }
 .img8{
+    justify-self: center;
+    align-self: center;
     grid-column: 4/4;
-    grid-row: 4/4;
+    grid-row: 2/2;
 }
 .ASD{
     text-align: center;
 }
 
 h1 {
-    width: 17vw;
+    font-size: 500%;
+    width: 40vw;
+    margin-bottom: 1%;
 }
 
 .ASD {
@@ -59,19 +76,20 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .ASD p {
-    width: 30vw;
-    margin-top: 1%;
+    font-size: 200%;
+    width: 700vw;
 }
 
 button {
-    margin: 1%;
+    margin-top: 2%;
+    margin-bottom: 3%;
     background-color: rgb(27, 26, 26);
     color: white;
-    padding: 10px 20px;
+    padding: 10px 40px;
     border: none;
     border-radius: 5px;
 }
