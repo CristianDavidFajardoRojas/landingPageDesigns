@@ -5,3 +5,92 @@
     box-sizing: border-box;
 }
 
+main {
+    display: flex;
+    flex-direction: row;
+}
+.container_imagenes{
+    margin-left: auto;
+    width: 55vw;
+    height: 100vh;
+    z-index: 1;
+
+}
+.container_imagenes img{
+    position: absolute;
+}
+.cuadro_amarillo{
+    right: 10vw;
+}
+.asterisk1{
+    right: 32vw;
+    top: 10vh;
+}
+.asterisk2{
+    right: 10vw;
+    top: 65vh
+}
+.persona{
+
+    right: 17vw;
+}
+
+
+.container_contenido{
+    width: 31vw;
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+}
+
+.Titulo{
+    width: 20vw;
+    margin-top: 8vh; 
+}
+span{
+    color: rgb(255, 196, 0);
+}
+h1 {
+    font-size: 450%;
+}
+hr {
+    margin-top: 3vh;
+    background-color: black;
+    height: 5px;
+    border: none;
+}
+
+.Texto{
+    margin-top: 3vh;
+    font-size: 210%;
+}
+button{
+    background-color: rgb(255, 196, 0);
+    border: none;
+    font-size: 190%;
+    margin-top: 3vh;
+    width: 12vw;
+    padding: 20px 10px;
+    border-radius: 50px;
+}
+.cuadrosinferiores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40vw;
+    margin-top: 3vh;
+}
+.cuadrosinferiores section{
+    padding-left: 3vh;
+    font-size: 160%;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    width: 11vw;
+    padding-bottom: 2vh;
+    border-radius: 20px;
+}
+.cuadrosinferiores section img {
+    width: 1vw;
+    margin-top: 2vh;
+}
