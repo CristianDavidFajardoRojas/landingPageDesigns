@@ -36,3 +36,41 @@ main {
     left: 7vw;
     bottom: 0vh;
 }
+.container_contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10vw;
+    width: 24vw;
+    
+}
+
+.Titulo{
+    margin-top: 10vh;
+}
+h1 {
+    color: white;
+    font-size: 650%;
+}
+.Texto {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+}
+.Texto p1 {
+    
+    color: rgba(255, 255, 255, 0.596);
+    font-size: 170%;
+    font-weight: normal;
+    
+}
+button{
+    margin-top: 4vh;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(219, 219, 84);
+    color: black;
+    padding: 20px 60px;
+    font-size: 200%;
+}
+
