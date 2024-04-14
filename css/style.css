@@ -5,7 +5,34 @@
     box-sizing: border-box;
 }
 
+
+body{
+    background-color: rgb(156, 42, 13);
+}
 main {
     display: flex;
-    cont
+    flex-direction: row;
+}
+.container_imagenes{
+    width: 50vw;
+    height: 100vh;
+}
+.container_imagenes img{
+    position: absolute;
+}
+.img1{
+    bottom: 20vh;
+    left: 7vw
+}
+.img2{
+    margin-left: 7vw;
+    bottom: 65vh;
+}
+.img3{
+    left: 30vw;
+    bottom: 7vh;
+}
+.img4{
+    left: 7vw;
+    bottom: 0vh;
 }
