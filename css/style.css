@@ -4,3 +4,122 @@
     margin: 0;
     box-sizing: border-box;
 }
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(8,12,20);
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.container_maincontent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 30vw;
+    height: 50vh;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    z-index: 2;
+}
+
+h1 {
+    color: white;
+    font-size: 540%;
+}
+.highlight{
+    color: red;
+}
+
+.container_imagenhamburguesagrande{
+    display: flex;
+    justify-content: flex-end;
+    width: 40vw;
+    margin-left: auto;
+    z-index: 1;
+}
+.hamburguesagrande{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container_imageneshamburguesas{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 30vw;
+    height: auto;
+    position: relative;
+    margin-top: 3vh; 
+}
+.container_maincontent img {
+    position: absolute; 
+}
+
+.hamburguesa12 {
+    left: 0; 
+}
+
+.hamburguesa14 {
+    left: calc(15% + -10px); 
+}
+.hamburguesa11 {
+    left: calc(30% + -10px); 
+}
+.hamburguesa16 {
+    left: calc(45% + -10px); 
+}
+.hamburguesa15 {
+    left: calc(60% + -10px); 
+}
+.hamburguesa10 {
+    left: calc(75% + -10px); 
+}
+.hamburguesa13 {
+    left: calc(90% + -10px); 
+}
+
+.container_maincontent button{
+    font-size: 170%;
+    border: none;
+    border-radius: 100px;
+    margin-top: 3vh;
+    background-color: red;
+    color: white;
+    padding: 3vh 3vw;
+}
+.container_texto{
+    margin-top: 13vh;
+}
+.container_texto p{
+    margin-top: 1vh;
+    color: white;
+    font-size: 220%;
+}
+
+.container_cuadrosinferiores{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    justify-content: space-between;
+}
+.container_cuadrosinferiores section{
+    background: linear-gradient(to right, #ffffff8f, #d8d8d800);
+    width: 46vh;
+    border-top-left-radius: 60px; 
+    border-bottom-left-radius: 60px;
+}
+h3 {
+    color: white;
+    font-size: 220%;
+    margin: 5%;
+}
