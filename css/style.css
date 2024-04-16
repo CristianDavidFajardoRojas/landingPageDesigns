@@ -41,7 +41,8 @@ main {
     flex-direction: column;
     align-items: flex-start;
     margin-left: 10vw;
-    width: 24vw;
+    width: 29vw;
+    font-family: "WorkSans-VariableFont_wght";
     
 }
 
@@ -72,5 +73,6 @@ button{
     color: black;
     padding: 20px 60px;
     font-size: 200%;
+    font-family: "WorkSans-VariableFont_wght";
 }
 
