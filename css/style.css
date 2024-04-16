@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Montserrat-VariableFont_wght";
 }
 @import url(variables.css);
 *{
@@ -33,7 +34,7 @@ main{
 
 h1 {
     color: white;
-    font-size: 540%;
+    font-size: 420%;
 }
 .highlight{
     color: red;
@@ -88,13 +89,14 @@ h1 {
 }
 
 .container_maincontent button{
-    font-size: 170%;
+    font-size: 140%;
     border: none;
     border-radius: 100px;
     margin-top: 3vh;
     background-color: red;
     color: white;
     padding: 3vh 3vw;
+    font-family: "Montserrat-VariableFont_wght";
 }
 .container_texto{
     margin-top: 13vh;
@@ -102,7 +104,7 @@ h1 {
 .container_texto p{
     margin-top: 1vh;
     color: white;
-    font-size: 220%;
+    font-size: 140%;
 }
 
 .container_cuadrosinferiores{
@@ -120,6 +122,6 @@ h1 {
 }
 h3 {
     color: white;
-    font-size: 220%;
+    font-size: 160%;
     margin: 5%;
 }
