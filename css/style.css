@@ -28,11 +28,13 @@ main {
     width: 30vw;
     height: 20vh;
     justify-content: flex-end;
+    font-family: "AvenirLTStd-Roman";
 }
 .titulo{
     display: flex;
     align-items: flex-start;
     font-size: 3.5rem;
+    font-family: "AvenirLTStd-Black";
 }
 button {
     font-size: 1rem;
@@ -43,5 +45,6 @@ button {
     background-color: black;
     color: white;
     border-radius: 15px;
+    font-family: "AvenirLTStd-Roman";
 }
 
