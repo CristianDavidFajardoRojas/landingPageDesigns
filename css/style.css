@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "AvenirLTStd-Roman";
 }
 .container1{
     display: grid;
@@ -82,6 +83,8 @@ h1 {
 .ASD p {
     font-size: 200%;
     width: 700vw;
+    font-size: "AvenirLTStd-Book";
+    color: gray;
 }
 
 button {
@@ -92,6 +95,7 @@ button {
     padding: 10px 40px;
     border: none;
     border-radius: 5px;
+    font-family: "AvenirLTStd-Roman";
 }
 
 
