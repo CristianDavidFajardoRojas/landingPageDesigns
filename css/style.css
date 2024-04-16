@@ -53,6 +53,7 @@ span{
 }
 h1 {
     font-size: 450%;
+    font-family: "ZillaSlab-Medium";
 }
 hr {
     margin-top: 3vh;
@@ -63,7 +64,8 @@ hr {
 
 .Texto{
     margin-top: 3vh;
-    font-size: 210%;
+    font-size: 180%;
+    font-family: "Inter-VariableFont_slnt\,wght";
 }
 button{
     background-color: rgb(255, 196, 0);
@@ -73,6 +75,7 @@ button{
     width: 12vw;
     padding: 20px 10px;
     border-radius: 50px;
+    font-family: "Inter-VariableFont_slnt\,wght";
 }
 .cuadrosinferiores{
     display: flex;
@@ -89,6 +92,7 @@ button{
     width: 11vw;
     padding-bottom: 2vh;
     border-radius: 20px;
+    font-family: "Inter-VariableFont_slnt\,wght";
 }
 .cuadrosinferiores section img {
     width: 1vw;
