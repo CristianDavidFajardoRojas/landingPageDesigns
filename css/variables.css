@@ -1,3 +1,8 @@
 :root{
     --color-primary: rgb(252, 177, 177);
 }
+
+@font-face {
+    font-family: "Lato-Light";
+    src: url(../storage/font/Lato/Lato-Regular.ttf);
+}
