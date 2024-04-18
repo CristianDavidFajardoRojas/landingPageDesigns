@@ -4,3 +4,84 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+main {
+    background: red;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+}
+
+.main__derecha {
+    background: blue;
+    width: 50vw;
+}
+
+.main__derecha img {
+    position: absolute;
+}
+
+.img1 {
+    margin-left: 22%;
+    margin-top: 19%;
+}
+
+.img2 {
+    margin-left: 8%;
+    margin-top: 4%;
+}
+
+.img3 {
+    margin-left: 11%;
+    margin-top: 8%;
+}
+
+.estrella1 {
+    margin-left: 31%;
+    margin-top: 34%;
+}
+
+.estrella2 {
+    margin-left: 4.3%;
+    margin-top: 2.1%;
+}
+
+.estrella3 {
+    margin-left: 12%;
+    margin-top: 11%;
+}
+
+.tag1 {
+    position: absolute;
+    background-color: #685FD4;
+    color: white;
+    padding: .7%;
+    width: 12vw;
+    text-align: center;
+    font-size: .8rem;
+    border-radius: 10px;
+    margin-top: 10%;
+    margin-left: 26.5%;
+    font-family: "WorkSans-VariableFont_wght";
+}
+
+.tag2 {
+    position: absolute;
+    background-color: #685FD4;
+    color: white;
+    padding: .7%;
+    width: 12vw;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    margin-top: 36%;
+    margin-left: 8.5%;
+    font-family: "WorkSans-VariableFont_wght";
+}
+
+.main__izquierda {
+    background: rgb(255, 0, 191);
+    width: 50vw;
+}
