@@ -6,7 +6,6 @@
 }
 
 main {
-    background: red;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -15,7 +14,6 @@ main {
 }
 
 .main__derecha {
-    background: blue;
     width: 50vw;
 }
 
@@ -82,6 +80,77 @@ main {
 }
 
 .main__izquierda {
-    background: rgb(255, 0, 191);
     width: 50vw;
 }
+
+.container_contenido {
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    gap: 30px;
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: "PlayfairDisplay-VariableFont_wght";
+}
+
+.textoo {
+    font-size: 2rem;
+    font-family: "WorkSans-VariableFont_wght";
+    color: grey;
+}
+
+.container_buttons {
+    width: 37vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.button1 {
+    font-size: 1.4rem;
+    width: 14vw;
+    height: 6vh;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-family: "WorkSans-VariableFont_wght";
+}
+
+.button2 {
+    font-size: 1.4rem;
+    width: 16vw;
+    height: 6vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: "WorkSans-VariableFont_wght";
+}
+
+.cuadro_inferior{
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    justify-content: space-between;
+    width: 45vw;
+    margin-left: 2%;
+    margin-top: 7%;
+    padding: 1%;
+    border: 1px solid black;
+}
+
+.cuadro_inferior div {
+    display: flex;
+    flex-direction: column;
+    width: 10;
+    font-size: 1.5rem;
+    width: 7vw;
+}
+
+.cuadro_inferior div img {
+    width: 30%;
+    height: 30%;
+}
+
