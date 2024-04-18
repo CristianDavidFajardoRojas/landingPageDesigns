@@ -4,3 +4,36 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100vw;
+    height: 100vh;
+}
+
+.titulo {
+    font-size: 4.6rem;
+    font-family: "avenir_roman_12";
+    width: 45vw;
+}
+
+.cuadros_inferiores {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cuadros_inferiores  div{
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 25vw;
+    font-family: "avenir_roman_12";
+    font-size: 1.7rem;
+}
