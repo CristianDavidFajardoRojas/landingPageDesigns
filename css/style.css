@@ -3,4 +3,31 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "lato";
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background: rgb(0, 0, 44);
+}
+
+.container1 {
+    background: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3vw;
+}
+
+.titulo {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 4.5rem;
+    width: 27vw;
+}
+
+.container2 {
+    
 }
