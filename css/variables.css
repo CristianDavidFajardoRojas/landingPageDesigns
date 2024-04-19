@@ -1,3 +1,13 @@
 :root{
     --color-primary: rgb(252, 177, 177);
 }
+
+@font-face {
+    font-family: "poppins";
+    src: url(../storage/font/Poppins/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "poppins_light";
+    src: url(../storage/font/Poppins/Poppins-Light.ttf);
+}

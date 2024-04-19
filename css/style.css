@@ -4,3 +4,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+main {
+    font-family: "poppins";
+    display: flex;
+    flex-direction: row;
+}
