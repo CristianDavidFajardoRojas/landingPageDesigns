@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "lato";
+    font-family: "Lato";
 }
 
 main {
@@ -13,7 +13,6 @@ main {
 }
 
 .container1 {
-    background: red;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -26,8 +25,72 @@ main {
     color: white;
     font-size: 4.5rem;
     width: 27vw;
+    padding-bottom: 2vh;
 }
 
 .container2 {
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.container2_izquierda {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    font-size: 1.5rem;
+    gap: 3vh;
+}
+
+.container2_izquierda div {
+    margin-left: 2.7vw;
+}
+
+button {
+    font-family: "Lato";
+    font-size: 1.5rem;
+    width: 8vw;
+    height: 5vh;
+    border-radius: 15px;
+    border: none;
+    margin-left: 2.7vw;
+}
+
+.container2_derecha {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 37vw;
+    font-size: 1.5rem;
+    padding-left: 5vw;
+}
+
+.container2_derecha div {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    margin-top: 1.3vh;
+    color: white;
+}
+
+.container2_derecha div p1 {
+    font-family: "Lato_light";
+    color: rgb(187, 187, 187);
+}
+
+.container2_derecha hr {
+    margin-top: 7vh;
+    width: 6vw;
+    height: .7vh;
+    background: white;
+    border: none;
+}
+
+.container3 {
+    display: flex;
+    height: 35vh;
+    justify-content: center;
+    gap: 3vw;
 }

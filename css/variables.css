@@ -6,3 +6,8 @@
     font-family: "Lato";
     src: url(../storage/font/Lato/Lato-Regular.ttf);
 }
+
+@font-face {
+    font-family: "Lato_light";
+    src: url(../storage/font/Lato/Lato-Light.ttf);
+}
