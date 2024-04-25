@@ -4,3 +4,101 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: "regular";
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    font-family: "regular";
+}
+
+
+.container__imagengrande{
+    display: flex;
+    z-index: 0;
+    width: 100%;
+}
+
+.container__imagengrande img{
+    width: 100%;
+}
+
+.container__contenido{
+    color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 35%;
+    padding: 2%;
+    left: 32.5%;
+    top: 20%;
+}
+
+.container__contenido h2{
+    font-size: 80px;
+}
+
+.container__contenido p{
+    font-size: 26px;
+}
+
+button{
+    background-color: white;
+    border: 0;
+    border-radius: 30px;
+    width: 10vw;
+    height: 6vh;
+    font-size: 20px;
+    border-color: white;
+}
+
+
+
+.container__textosinferiores div h4{
+    font-size: 40px;
+}
+
+.container__textosinferiores div p{
+    font-size: 25px;
+}
+
+.container__imagenesinferiores {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    z-index: 0;
+}
+
+.container__imagenesinferiores img {
+    width: 100%;
+}
+
+.container__textosinferiores {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    gap: 153px;
+    bottom: 0;
+    z-index: 5;
+    background: linear-gradient(to top, black 20%, transparent 80%);
+     
+}
+
+.container__textosinferiores div{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    padding-bottom: 50px;
+}
