@@ -1,3 +1,18 @@
 :root{
     --color-primary: rgb(252, 177, 177);
 }
+
+@font-face {
+    font-family: "regular";
+    src: url(../storage/font/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "semibold";
+    src: url(../storage/font/Poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "bold";
+    src: url(../storage/font/Poppins/Poppins-Bold.ttf);
+}
