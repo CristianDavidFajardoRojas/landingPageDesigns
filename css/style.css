@@ -6,6 +6,7 @@
 }
 
 body {
+    position: relative;
     display: flex;
     width: 100vw;
     height: 100vh;
@@ -15,7 +16,6 @@ main {
     display: flex;
     justify-content: center;
     gap: 30px;
-    background: red;
     width: 100%;
     height: 100%;
 }
@@ -37,7 +37,6 @@ main {
 .container_texto {
     font-size: 1.7rem;
     width: 33vw;
-    background: green;
     color: rgb(46, 46, 46);
 }
 
@@ -67,4 +66,39 @@ button {
     padding-top: 30px;
     display: flex;
     align-items: start;
+}
+
+.container_persona {
+    position: absolute;
+    display: flex;
+    gap: 25px;
+    font-size: 1.5rem;
+    bottom: 30px;
+    right: 189px;
+    width: 37vw;
+    font-family: "roman";
+}
+
+.abajo_izquierda {
+    position: absolute;
+    left: 18%;
+    bottom: 4.2%;
+}
+
+.centro {
+    position: absolute;
+    left: 45%;
+    bottom: 37%;
+}
+
+.arriba {
+    position: absolute;
+    left: 38%;
+    top: 7%;
+}
+
+.abajo_derecha {
+    position: absolute;
+    right: 13.4%;
+    bottom: 21%;
 }
