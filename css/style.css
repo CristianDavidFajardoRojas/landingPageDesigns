@@ -7,22 +7,29 @@
 }
 
 body {
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.title {
+    font-size: 3.15rem;
+    width: 45%;
+    margin-left: 13.4%;
 }
 
 
-
-
 .cards {
-    background-color: red;
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
 .cards article {
-    background: blue;
     display: flex;
     flex-direction: column;
     font-size: 1.5rem;
@@ -34,13 +41,12 @@ body {
 }
 
 .cards article h3 {
-    color: gray;
+    color: rgba(128, 128, 128, 0.616);
     font-size: 2rem;
 }
 
 .cards article div {
    position: relative;
-   background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.329));
 }
 
 .cards article div div {
@@ -49,7 +55,9 @@ body {
     flex-direction: column;
     gap: 6px;
     padding: 25px 20px;
-    bottom: 0;
+    bottom: 10px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.74));
  }
 
  .cards article div div p{
