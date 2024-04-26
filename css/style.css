@@ -3,5 +3,67 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "roman";
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.superior {
+    display: flex;
+
+}
+
+.container__content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+    padding: 80px 30px;
+    background: green;
+}
+
+
+.container__content h1 {
+    font-size: 5rem;
+    width: 70%;
+}
+
+.container__content p {
+    font-size: 1.7rem;
+    width: 70%;
+    color: rgb(75, 75, 75);
+}
+
+button {
+    width: 10vw;
+    height: 6vh;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    font-family: "roman";
+    font-size: 1.7rem;
+}
+
+
+
+.container__imagenes {
+        width: 50%;
+        background: indigo;
+        position: relative;
+}
+
+.img1 {
+    position: absolute;
+    left: 10%;
+    top: 15%;
+}
+
+.img2 {
+    position: absolute;
+    left: 35%;
+    top: 35%;
+}
