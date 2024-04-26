@@ -9,6 +9,10 @@
 body {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    width: 100vw;
+    height: 100vh;
 }
 
 .superior {
@@ -20,20 +24,19 @@ body {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    width: 50%;
-    padding: 80px 30px;
-    background: green;
+    width: 57%;
+    padding: 80px 190px;
 }
 
 
 .container__content h1 {
     font-size: 5rem;
-    width: 70%;
+    width: 90%;
 }
 
 .container__content p {
     font-size: 1.7rem;
-    width: 70%;
+    width: 100%;
     color: rgb(75, 75, 75);
 }
 
@@ -48,11 +51,8 @@ button {
     font-size: 1.7rem;
 }
 
-
-
 .container__imagenes {
-        width: 50%;
-        background: indigo;
+        width: 40%;
         position: relative;
 }
 
@@ -66,4 +66,31 @@ button {
     position: absolute;
     left: 35%;
     top: 35%;
+}
+
+.inferior {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.inferior div {
+    display: flex;
+    justify-content: space-around;
+    background: rgb(17, 17, 17);
+    width: 80%;
+    padding: 50px 0;
+    border-radius: 43px;
+    
+}
+
+.inferior div article {
+    color: white;
+    width: 24%;
+    flex-direction: column;
+    font-size: 1.4rem;
+}
+
+.inferior div article p{
+    margin-top: 20px;
 }
