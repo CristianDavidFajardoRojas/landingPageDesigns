@@ -3,5 +3,63 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-size: "bitter";
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(to bottom, rgb(252, 186, 99), rgb(247, 163, 54));
+}
+
+body section {
+    padding-top: 10vh;
+   display: flex;
+   flex-direction: column;
+   width: 50vw;
+   margin-left: 10%;
+   gap: 30px;
+}
+
+body section img{
+  height: 60%;
+  width: 60%;
+}
+
+body section h1 {
+    font-size: 6rem;
+    width: 70%;
+}
+
+body section p {
+    font-size: 2rem;
+    width: 70%;
+    font-family: "monoregular";
+}
+
+button {
+    width: 15vw;
+    height: 6vh;
+    font-family: "monoregular";
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    font-size: 1.5rem;
+}
+
+.img2 {
+    position: absolute;
+    top: 12%;
+    left: 10%;
+}
+
+.imgGrande  {
+    position: absolute;
+    scale: .9423;
+    right: 5%;
+}

@@ -6,3 +6,8 @@
     font-family: "bitter";
     src: url(../storage/font/Bitter/Bitter-VariableFont_wght.ttf);
 }
+
+@font-face {
+    font-family: "monoregular";
+    src: url(../storage/font/Space_Mono/SpaceMono-Regular.ttf);
+}
